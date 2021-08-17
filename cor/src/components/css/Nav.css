@@ -1,0 +1,43 @@
+.background {
+    background-color: #2e4b63;
+}
+
+.navButton {
+    transition: .7s;
+
+}
+
+.navButton:hover {
+    color: #d67e0a;
+    text-shadow: 2px 2px 5px #00000094;
+    transition: .2s;
+
+}
+
+.cityLights {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #be6f08;
+    transition: .7s;
+}
+
+.cityLights:hover {
+    color: #d67e0a;
+    text-shadow: 2px 2px 5px #00000094;
+    transition: .2s;
+}
+
+.donate {
+    background-color: #be6f08;
+    transition: .7s;
+}
+
+.donate:hover {
+    background-color: #ff9204;
+    transition: .2s;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    transition: .7s;
+}

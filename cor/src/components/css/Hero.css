@@ -1,0 +1,9 @@
+.buttons {
+    background-color: #be6f08;
+    transition: .7s;
+}
+
+.buttons:hover {
+    background-color: #ff9204;
+    transition: .2s;
+}

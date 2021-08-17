@@ -1,0 +1,13 @@
+.background {
+    background-color: #2e4b63;
+}
+
+.learn {
+    background-color: #be6f08;
+    transition: .7s;
+}
+
+.learn:hover {
+    background-color: #ff9204;
+    transition: .2s;
+}
