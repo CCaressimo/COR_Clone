@@ -17,23 +17,32 @@ export default function Hero() {
                         <div class="px-6 mx-auto items-center">
                             <div class="w-full overflow-y-hidden px-4">
                                 <div className="text-center py-6">
-                                    <NavLink
-                                    to="https://vimeo.com/333813246" class="buttons px-3 sm:px-6 py-2 sm:py-3 text-sm ml-3 sm:ml-6 text-white font-bold leading-tight">WATCH VIDEO</NavLink>
+                                    <a
+                                    href="https://vimeo.com/333813246"
+                                    target="_blank" 
+                                    class="buttons px-3 sm:px-6 py-2 sm:py-3 text-sm ml-3 sm:ml-6 text-white font-bold leading-tight">WATCH VIDEO</a>
                                 </div>
                             </div>
                         </div>
                         <div class="px-6 mx-auto items-center">
                             <div class="w-full overflow-y-hidden px-4">
                                 <div className="text-center py-6">
-                                    <NavLink
-                                    to="https://give.cityofrefugeatl.org/give/270004/#!/donation/checkout" 
-                                    class="buttons px-3 sm:px-6 py-2 sm:py-3 text-sm ml-3 sm:ml-6 text-white font-bold leading-tight">DONATE</NavLink>
+                                    <a href="https://give.cityofrefugeatl.org/give/270004/#!/donation/checkout" 
+                                    target="_blank" 
+                                    class="buttons px-3 sm:px-6 py-2 sm:py-3 text-sm ml-3 sm:ml-6 text-white font-bold leading-tight">DONATE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-6 pt-10 mx-auto items-center">
+                            <div class="w-full overflow-y-hidden px-4">
+                                <div className="text-center pt-8">
+                                    <a class="px-3 sm:px-6 text-sm ml-3 sm:ml-6 text-white font-bold leading-tight">SCROLL</a>
                                 </div>
                             </div>
                         </div>
                         <div class="px-6 pb-2 mx-auto items-center">
                             <div class="w-full overflow-y-hidden px-4">
-                                <div className="text-center pt-12">
+                                <div className="text-center pt-6">
                                     <svg class="arrow animate-bounce mx-auto text-sm ml-3 sm:ml-6" width="70" height="55" viewBox="-2.5 -5 75 60" preserveAspectRatio="none">
                                         <path d="M0,0 l35,50 l35,-50" fill="none" stroke="black" stroke-linecap="round" stroke-width="5" />
                                     </svg>

@@ -5,6 +5,8 @@ import Nav from "./components/Nav"
 import Dropdown from "./components/Dropdown"
 import ScrollToTop from './components/ScrollToTop'
 import Hero from "./components/Hero"
+import Impact from "./components/Impact"
+import Process from './components/Process';
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,6 +36,8 @@ const App = () => {
       <Switch>
         <Route path='/' exact>
           <Hero />
+          <Impact />
+          <Process />
         </Route>
       </Switch>
     </BrowserRouter>
