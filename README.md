@@ -1,2 +1,3 @@
 # COR_Clone
-preparations for hackathon
+
+Cloning the CityOfRefuge site to preparation for hackathon
