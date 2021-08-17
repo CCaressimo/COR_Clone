@@ -9,7 +9,7 @@ export default function NavBar({toggle}) {
         <nav className="headerText flex justify-between items-center h-36 background relative shadow-sm text-gray-100">
           <NavLink
             to="/"
-            className="titleText inflex-flex items-center py-6 px-3 ml-24 rounded text-4xl font-bold  tracking-widest "
+            className="titleText inflex-flex items-center py-6 px-3 ml-24 rounded text-4xl font-bold  tracking-widest"
           >
             City Of Refuge
           </NavLink>

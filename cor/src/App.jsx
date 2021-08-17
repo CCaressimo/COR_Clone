@@ -45,3 +45,5 @@ const App = () => {
 }
 
 export default App;
+
+// use for main page scroll to top onClick={() => scroll.scrollToTop}

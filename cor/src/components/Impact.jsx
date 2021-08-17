@@ -5,13 +5,13 @@ import "./css/Impact.css"
 export default function Impact() {
     return (
         <main>
-            <section>
+            <section className="I-Impact" id="Impact">
                 <div>
                     <div class="background flex flex-col items-center pt-6 sm:pt-12">
                         <div class="w-11/12 sm:w-2/3">
                             <h1 class="container sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-center text-white font-bold leading-tight">OVER 20 YEARS OF IMPACT IN THE WESTSIDE OF ATLANTA</h1>
                         </div>
-                        <div class="px-6 mx-auto items-center pt-6 pb-12">
+                        <div class="px-6 mx-auto items-center pt-6 pb-6">
                             <div class="w-full overflow-y-hidden px-4">
                                 <div className="text-center py-6">
                                     <NavLink
