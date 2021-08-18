@@ -7,6 +7,7 @@ import ScrollToTop from './components/ScrollToTop'
 import Hero from "./components/Hero"
 import Impact from "./components/Impact"
 import Process from './components/Process';
+import Understanding from './components/Understanding';
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,6 +39,7 @@ const App = () => {
           <Hero />
           <Impact />
           <Process />
+          <Understanding />
         </Route>
       </Switch>
     </BrowserRouter>
