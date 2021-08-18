@@ -1,10 +1,6 @@
 import React from 'react'
-import { NavLink } from "react-router-dom"
 import { Link } from 'react-scroll'
 import "./css/Hero.css"
-
-import Impact from "./Impact"
-
 
 export default function Hero() {
     return (
