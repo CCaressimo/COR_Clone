@@ -44,7 +44,7 @@ export default function Hero() {
                             <div class="w-full overflow-y-hidden px-4">
                                 <div className="text-center pt-6">
                                     <Link className="I-Impact"  to="Impact" smooth={true} duration={1000}>
-                                    <svg class="arrow animate-bounce mx-auto text-sm ml-3 sm:ml-6" width="70" height="55" viewBox="-2.5 -5 75 60" preserveAspectRatio="none">
+                                    <svg class="arrow animate-bounce mx-auto text-sm ml-3 sm:ml-6 fill-current" width="70" height="55" viewBox="-2.5 -5 75 60" preserveAspectRatio="none">
                                         <path d="M0,0 l35,50 l35,-50" fill="none" stroke="black" stroke-linecap="round" stroke-width="5" />
                                     </svg>
                                     </Link>
