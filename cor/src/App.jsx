@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Switch} from "react-router-dom";
 
-import Nav from "./components/Nav"
-import Dropdown from "./components/Dropdown"
-import ScrollToTop from './components/ScrollToTop'
-import Hero from "./components/Hero"
-import Impact from "./components/Impact"
+import Nav from "./components/Nav";
+import Dropdown from "./components/Dropdown";
+import ScrollToTop from './components/ScrollToTop';
+import Hero from "./components/Hero";
+import Impact from "./components/Impact";
 import Process from './components/Process';
 import Understanding from './components/Understanding';
+import Transformation from './components/Transformation';
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,13 +23,13 @@ const App = () => {
         setIsOpen(false)
       }
     }
-    window.addEventListener('resize', hideMenu)
+    window.addEventListener('resize', hideMenu);
 
     return () => {
       window.removeEventListener("resize", hideMenu);
     }
   })
-
+  
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -40,6 +41,7 @@ const App = () => {
           <Impact />
           <Process />
           <Understanding />
+          <Transformation />
         </Route>
       </Switch>
     </BrowserRouter>
