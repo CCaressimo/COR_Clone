@@ -22,11 +22,11 @@ export default function NavBar({toggle}) {
                   <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
                 </button>
                 <ul class="dropdown-menu absolute hidden pt-1">
-                  <li class=""><a href="#" className="items-center p-1 mx-2 navButton text-sm background py-2 px-8 block whitespace-no-wrap">Applications</a></li>
-                  <li class=""><a href="#" className="items-center p-1 mx-2 navButton text-sm background py-2 px-8 block whitespace-no-wrap">Become a Partner</a></li>
-                  <li class=""><a href="#" className="items-center p-1 mx-2 navButton text-sm background py-2 px-8 block whitespace-no-wrap">Events</a></li>
-                  <li class=""><a href="#" className="items-center p-1 mx-2 navButton text-sm background py-2 px-8 block whitespace-no-wrap">Take a Tour</a></li>
-                  <li class=""><a href="#" className="items-center p-1 mx-2 navButton text-sm background py-2 px-8 block whitespace-no-wrap">Volunteer</a></li>
+                  <li class=""><NavLink to="/apply-for-help" className="items-center p-1 mx-2 navButton text-sm background py-2 px-8 block whitespace-no-wrap">Applications</NavLink></li>
+                  <li class=""><NavLink to="/transformation-partners" className="items-center p-1 mx-2 navButton text-sm background py-2 px-8 block whitespace-no-wrap">Become a Partner</NavLink></li>
+                  <li class=""><NavLink to="/gathering" className="items-center p-1 mx-2 navButton text-sm background py-2 px-8 block whitespace-no-wrap">Events</NavLink></li>
+                  <li class=""><NavLink to="/take-a-tour" className="items-center p-1 mx-2 navButton text-sm background py-2 px-8 block whitespace-no-wrap">Take a Tour</NavLink></li>
+                  <li class=""><NavLink to="/volunteer" className="items-center p-1 mx-2 navButton text-sm background py-2 px-8 block whitespace-no-wrap">Volunteer</NavLink></li>
                 </ul>
               </div>
             </div>
