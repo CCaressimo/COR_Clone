@@ -11,6 +11,7 @@ import Understanding from './components/Understanding';
 import Transformation from './components/Transformation';
 import Programs from './components/Programs';
 import Collective from './components/Collective';
+import FreeResouce from './components/FreeResouce';
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,6 +47,7 @@ const App = () => {
           <Transformation />
           <Programs />
           <Collective />
+          <FreeResouce />
         </Route>
       </Switch>
     </BrowserRouter>

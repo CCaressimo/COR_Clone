@@ -47,10 +47,9 @@ export default function Collective() {
                         <div class="px-6 mx-auto items-center">
                             <div class="w-full overflow-y-hidden px-4">
                                 <div className="text-center py-6">
-                                    <a
-                                    href="https://vimeo.com/333813246"
+                                    <a href="https://give.cityofrefugeatl.org/give/270004/#!/donation/checkout" 
                                     target="_blank" 
-                                    class="buttons px-3 sm:px-6 py-2 sm:py-3 text-sm ml-3 sm:ml-6 text-white font-bold leading-tight">WATCH VIDEO</a>
+                                    class="buttons px-3 sm:px-6 py-2 sm:py-3 text-sm ml-3 sm:ml-6 text-white font-bold leading-tight">DONATE</a>
                                 </div>
                             </div>
                         </div>
