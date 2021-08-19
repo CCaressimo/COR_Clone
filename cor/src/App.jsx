@@ -9,6 +9,8 @@ import Impact from "./components/Impact";
 import Process from './components/Process';
 import Understanding from './components/Understanding';
 import Transformation from './components/Transformation';
+import Programs from './components/Programs';
+import Collective from './components/Collective';
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +31,7 @@ const App = () => {
       window.removeEventListener("resize", hideMenu);
     }
   })
-  
+
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -42,6 +44,8 @@ const App = () => {
           <Process />
           <Understanding />
           <Transformation />
+          <Programs />
+          <Collective />
         </Route>
       </Switch>
     </BrowserRouter>

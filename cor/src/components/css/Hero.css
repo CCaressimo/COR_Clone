@@ -7,3 +7,18 @@
     background-color: #ff9204;
     transition: .2s;
 }
+
+.orangeText {
+    color: #be6f08;
+}
+
+.buttons2 {
+    color: #ffffff;
+    transition: .7s;
+    border-bottom: 1px solid currentColor;
+}
+
+.buttons2:hover {
+    color: #666666;
+    transition: .2s;
+}
