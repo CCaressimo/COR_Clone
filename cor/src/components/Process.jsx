@@ -19,37 +19,37 @@ export default function Process() {
                             </h1>
                         </div>
                         <div>
-                            <h3 class="textFont px-4 md:px-8 container sm:text-md md:text-lg lg:text-xl xl:text-2xl text-center font-bold leading-tight">Our process takes place <span className="highlightedFont">under one roof</span> in the most dangerous zip code in Atlanta. The needs are great but when likeminded community members, organizations, and volunteers partner together we are able to see amazing things happen.</h3>
+                            <h3 class="textFont px-4 md:px-8 container sm:text-md md:text-lg lg:text-xl xl:text-2xl text-center leading-tight">Our process takes place <span className="highlightedFont">under one roof</span> in the most dangerous zip code in Atlanta. The needs are great but when likeminded community members, organizations, and volunteers partner together we are able to see amazing things happen.</h3>
                         </div>
                         <div class="grid md:grid-cols-4 gap-4 px-12">
                             <Fade big>
                                 <div>
                                     <div className="p-6">
                                         <img className="mx-auto w-1/2 md:w-1/3 py-7" src={Person} alt="" />
-                                        <h1 className="highlightedFont text-center font-bold leading-tight pb-6 md:pb-12">1. PEOPLE IN CRISIS</h1>
-                                        <h3 className="textFont container text-center font-bold leading-tight">Crime, disease, lack of opportunity.</h3>
+                                        <h1 className="highlightedFont text-center leading-tight pb-6 md:pb-12">1. PEOPLE IN CRISIS</h1>
+                                        <h3 className="textFont container text-center leading-tight">Crime, disease, lack of opportunity.</h3>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="p-6">
                                         <img className="mx-auto w-1/2 md:w-1/3 py-6" src={Coffee} alt="" />
-                                        <h1 className="highlightedFont text-center font-bold leading-tight pb-6 md:pb-12">2. RECEIVE HELP</h1>
-                                        <h3 className="textFont container text-center font-bold leading-tight">Food, housing, emergency healthcare.</h3>
+                                        <h1 className="highlightedFont text-center leading-tight pb-6 md:pb-12">2. RECEIVE HELP</h1>
+                                        <h3 className="textFont container text-center leading-tight">Food, housing, emergency healthcare.</h3>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="p-6">
                                         <img className="mx-auto w-1/2 md:w-1/3 py-7" src={gradCap} alt="" />
-                                        <h1 className="highlightedFont text-center font-bold leading-tight pb-6 md:pb-12">3. LEARN NEW SKILLS</h1>
-                                        <h3 className="textFont container text-center font-bold leading-tight">Education, job training, financial literacy.</h3>
+                                        <h1 className="highlightedFont text-center leading-tight pb-6 md:pb-12">3. LEARN NEW SKILLS</h1>
+                                        <h3 className="textFont container text-center leading-tight">Education, job training, financial literacy.</h3>
                                     </div>
                                 </div>
                                 <div >
                                     <div className="p-6">
                                         <img className="mx-auto w-1/2 md:w-1/3 py-10" src={People} alt="" />
-                                        <h1 className="highlightedFont text-center font-bold leading-tight pb-6 md:pb-12">4. THRIVE IN COMMUNITY
+                                        <h1 className="highlightedFont text-center leading-tight pb-6 md:pb-12">4. THRIVE IN COMMUNITY
                                         </h1>
-                                        <h3 className="textFont container text-center font-bold leading-tight">New jobs, stronger families, local opportunities.</h3>
+                                        <h3 className="textFont container text-center leading-tight">New jobs, stronger families, local opportunities.</h3>
                                     </div>
                                 </div>
                             </Fade>
